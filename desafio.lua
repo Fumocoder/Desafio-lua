@@ -14,6 +14,8 @@
    |
 ]]
 
+--Biblioteca para cores
+
 -- Status gerais
 local monster_type = "Creeper"
 local emoji_explosion = "💥"
@@ -63,4 +65,4 @@ print("| \n| ======================= Variação =======================")
 print("| \n| " .. variation)
 print("| \n| ======================== Drops =========================")
 print("|\n|" .. monster_drops)
-print("|\n| =========================================================")
+print("|\n| ======================== Fim ============================")
