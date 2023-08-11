@@ -25,11 +25,11 @@ local monster_normal_attack_power = 8
 -- Informações gerais
 local monster_description = "Um monstro verde e perigoso que explode ao chegar perto"
 local monster_player_alingment = "Hostil por padrão ao player"
-local monster_overall = "Neutro (Ataca mobs quando atacado)"
+local monster_overall = "Neutro (Mas ataca mobs quando atacado)"
 local variation = "Creeper carregado = Ocorre quando um raio cai\n| em sua cabeça aumentando seu poder de explosão"
 
 -- Drops
-local monster_drops = " 5 de experiência \n| 0-2 pólvora \n| 1 disco de música aleatório caso morto por um esqueleto ou um esqueleto-errante\n| 1 cabeça de creeper caso morto por um creeper carregado"
+local monster_drops = " 5 de experiência \n| 0-2 pólvora \n| 1 disco de música aleatório (caso morto por um esqueleto ou um \n| esqueleto-errante 1 cabeça de creeper caso morto por um creeper\n| carregado)"
 
 ---Função para barra de progresso
 local function progress(number)
@@ -45,6 +45,8 @@ local function progress(number)
     end
     return barra_completa
  end
+
+-- "Pokedéx do creeper"
 print("| ====================== " .. monster_type .. " =========================")
 print("| \n| " .. monster_description )
 print("| \n| ====================== Atributos =======================")
@@ -61,3 +63,4 @@ print("| \n| ======================= Variação =======================")
 print("| \n| " .. variation)
 print("| \n| ======================== Drops =========================")
 print("|\n|" .. monster_drops)
+print("|\n| =========================================================")
