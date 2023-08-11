@@ -48,7 +48,7 @@ local function progress(number)
     return barra_completa
  end
 
--- "Pokedéx do creeper"
+-- "Pokédex do creeper"
 print("| ====================== " .. monster_type .. " =========================")
 print("| \n| " .. monster_description )
 print("| \n| ====================== Atributos =======================")
